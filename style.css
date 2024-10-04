@@ -1,0 +1,214 @@
+:root {
+    --cor0:#fae4cd;
+    --cor1:#f4c7a2;
+    --cor3:#d48759;
+    --cor4:#a95730;
+    --cor5:#e7cac8;
+    --cor6:#cf9e93;
+    --cor7:#bcbcbc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lora";
+    line-height: 1em;
+}
+
+body {
+    background-image: linear-gradient(var(--cor0), var(--cor1), transparent);
+    margin: 0px;
+    
+    
+}
+
+header > p {
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    
+    margin: -10px;
+    padding: 10px;
+}
+
+.titulos {
+
+    text-align: center;
+    font-size: 3em;
+    font-family: "Shrikhand";  
+    padding: 40px;
+   
+    
+}
+
+.principal {
+    
+}
+
+.paragrafo {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#margin {
+    
+    border-radius: 5px;
+}
+
+main > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.082), transparent);
+    color: rgba(255, 68, 0, 0.815);
+}
+
+
+
+
+p {
+    line-height: 1.1em;
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+
+
+body {
+    background-color: rgba(252, 186, 4, 0.281);
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;  
+    background-color: rgba(245, 245, 245, 0.507);
+    
+}
+
+nav {
+    margin: 50px 50px 50px -10px;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+
+nav > a {
+    padding: 10px;
+    margin: 1px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.651);
+    border-style: groove;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    background-color: rgba(0, 0, 0, 0.418);
+    transition: 0.5s;
+    padding: 17px;
+    color: white;
+    border-style: double;
+    border-color: rgba(5, 5, 5, 0.849);
+    text-shadow: 2px 2px 10px black;
+    
+}
+
+ul > a {
+    text-decoration: none;
+    all: unset;
+}
+
+
+html {
+    background-color: white;
+   
+}
+
+strong {
+    font-weight: bold;
+    font-style: italic;
+}
+
+strong:hover {
+    color: lightgray;
+    background-color: rgba(0, 0, 0, 0.514);
+    transition: 0.5s;
+    
+}
+
+mark {
+    background-color: rgba(165, 42, 42, 0.712);
+}
+
+div {
+    text-align: center;
+}
+
+summary {
+    all: unset;
+    font-size: 2em;
+    padding: 35px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    color: rgba(255, 68, 0, 0.815);
+}
+
+summary:hover {
+    background-color: rgba(0, 0, 0, 0.418);
+    transition: 0.5s;
+    color: white;
+    border-style: double;
+    border-color: rgba(5, 5, 5, 0.849);
+    text-shadow: 2px 2px 10px black;
+    cursor: pointer;
+}
+
+
+
+li {
+    padding: 7px;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: rgba(241, 14, 14, 0.678);
+    transition: 0.5s;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+#icone {
+    text-align: center;
+    margin: 20px;
+}
+
+#facebook:hover {
+    background-color: rgb(47, 0, 255);
+    border-radius: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#instagram:hover {
+    background-color: rgba(255, 0, 212, 0.404);
+    border-radius: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#whatsapp:hover {
+    background-color: rgb(0, 255, 98);
+    border-radius: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+}
