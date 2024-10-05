@@ -1,7 +1,7 @@
 :root {
-    --cor0:#fae4cd;
-    --cor1:#f4c7a2;
-    --cor3:#d48759;
+    --cor0:#f1e1ce;
+    --cor1:#dbcbb5;
+    --cor3:#d48659b2;
     --cor4:#a95630;
     --cor5:#e7cac8;
     --cor6:#cf9e93;
@@ -211,4 +211,14 @@ li:hover {
     border-radius: 40px;
     transition: 0.5s;
     cursor: pointer;
+}
+
+#biscoito:hover {
+    
+background: url(imagens/cupcake.png);
+    block-size: 82px;
+}
+
+#biscoito {
+    position: relative;
 }
